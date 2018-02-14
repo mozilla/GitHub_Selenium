@@ -4,7 +4,7 @@
 
 __author__ = """Hal Wine"""
 __email__ = 'hwine@mozilla.com'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 import logging
