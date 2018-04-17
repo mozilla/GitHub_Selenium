@@ -24,11 +24,11 @@ logger = logging.getLogger(__name__)
 
 class GitHub2FA(object):
 
-    def __init__(self, implicit_wait=5, headless=True):
+    def __init__(self, implicit_wait=5, headless=True, **kwargs):
         # set headless mode
         if headless:
             os.environ['MOZ_HEADLESS'] = "1"
-        driver = webdriver.Firefox()
+        driver = webdriver.Firefox(**kwargs)
         driver.wait = WebDriverWait(driver, implicit_wait)
         self.driver = driver
 
