@@ -28,7 +28,7 @@ test_requirements = [
 
 setup(
     name='github_selenium',
-    version='0.1.1',
+    version='0.2.0',
     description="Helper for 2FA login to GitHub",
     long_description=readme + '\n\n' + history,
     author="Hal Wine",
